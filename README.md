@@ -1,5 +1,33 @@
 # Lab.5
 
-�w�� Lab3/4 �Ѻ��������R�X�Ӫ��¤�r�����A�i�� tokenization�A�ñN tokenize �᪺���G��X��s���ɮפ��C
+針對 Lab3 由網頁中分析出來的純文字部分，進行 tokenization，並將 tokenize 後的結果進行 TF-IDF 的計算。
+最後將計算結果輸出到檔案中。
 
-* ��ĳ�ϥ� TokenizerME
+* 使用 TokenizerME
+
+請針對每一個檔案輸出對應的 TF-IDF 結果。
+
+##  輸出範例
+
+針對 amber_135372.html 輸出檔名為 amber_135372.tfidf 的檔案
+
+內容如下
+
+```
+Term  TF-IDF
+Re    0.99
+:     0.0001
+Not   0.01
+...
+```
+
+
+# 計分表
+
+|評分項目|5|4|3|2|1|
+|-|-|-|-|-|-|
+|程式結果正確性||||||
+|程式碼完整性||||||
+|準時繳交||||||
+
+# 分數
